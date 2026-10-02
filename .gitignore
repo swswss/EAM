@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+
+# large / generated files
+dataset/pickscore/embeddings/
+reward_ckpts
+checkpoints/
+eval/
+logs/
+wandb/

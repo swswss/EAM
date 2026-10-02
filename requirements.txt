@@ -1,0 +1,24 @@
+# Python 3.10. Install torch/torchvision for your CUDA version first, e.g.
+#   pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0
+torchvision==0.21.0
+diffusers==0.33.1
+transformers==4.40.0
+accelerate==1.4.0
+peft==0.10.0
+huggingface-hub==0.29.1
+tokenizers==0.19.1
+safetensors
+sentencepiece
+protobuf==3.20.3
+ml_collections
+numpy==1.26.4
+pillow==10.4.0
+tqdm
+
+# reward models
+image-reward==1.5
+timm==0.6.13
+fairscale==0.4.13
+clip @ git+https://github.com/openai/CLIP.git@d05afc436d78f1c48dc0dbf8e5980a9d471f35f6
+hpsv2 @ git+https://github.com/tgxs002/HPSv2.git@866735ecaae999fa714bd9edfa05aa2672669ee3
