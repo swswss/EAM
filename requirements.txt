@@ -8,13 +8,13 @@ accelerate==1.4.0
 peft==0.10.0
 huggingface-hub==0.29.1
 tokenizers==0.19.1
-safetensors
-sentencepiece
+safetensors==0.5.3
+sentencepiece==0.2.0
 protobuf==3.20.3
-ml_collections
+ml_collections==1.0.0
 numpy==1.26.4
 pillow==10.4.0
-tqdm
+tqdm==4.67.1
 
 # reward models
 image-reward==1.5
